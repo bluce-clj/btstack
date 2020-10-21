@@ -42,6 +42,8 @@ L2CAP: trigger pairing for outgoing LE Data Channels if security level insuffici
 
 ### Changed
 - SM: Cross-Transport Key Derivation requires `ENABLE_CROSS_TRANSPORT_KEY_DERIVATION` now
+- GATT Client: drop notifications/indications as Central until IRK and re-encryption are complete, or if 
+    connection is not encrypted although bonding information is available
 
 ## Changes September 2020
 
