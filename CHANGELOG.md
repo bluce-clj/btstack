@@ -15,7 +15,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Changes November 2020
 
 ### Fixed
-L2CAP: trigger pairing for outgoing LE Data Channels if security level insufficient
+- L2CAP: trigger pairing for outgoing LE Data Channels if security level insufficient
+- SM: send security request on re-connect if bonded (ENABLE_LE_PROACTIVE_AUTHENTICATION)
 
 ### Added
 
